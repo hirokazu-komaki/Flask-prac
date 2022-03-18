@@ -1,0 +1,8 @@
+version: '3'
+services: 
+    web:
+        build: .
+        volumes:
+            - ./prac-Flask:/app
+        ports:
+            - 9000:9000
